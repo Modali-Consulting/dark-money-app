@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "title": "Liberty Advocates Network",
+      "hypothesis": "Nonprofit intermediaries routed funds into PAC media buys.",
+      "status": "open",
+      "jurisdictions": ["US"],
+      "targets": "Liberty Advocates Network, Citizens for Progress PAC"
+    }
+  ],
+  "entities": [
+    {
+      "type": "org",
+      "canonical_name": "Liberty Advocates Network",
+      "aliases": ["Liberty Advocates"],
+      "identifiers": {"ein": "12-3456789"},
+      "jurisdiction": "US"
+    },
+    {
+      "type": "committee",
+      "canonical_name": "Citizens for Progress PAC",
+      "aliases": ["CFP"],
+      "identifiers": {"fec_committee_id": "C00000001"},
+      "jurisdiction": "US"
+    },
+    {
+      "type": "person",
+      "canonical_name": "Alex Roe",
+      "aliases": ["A. Roe"],
+      "identifiers": {"fec_id": "P00000001"},
+      "jurisdiction": "US"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Liberty Advocates Network",
+      "to": "Citizens for Progress PAC",
+      "rel_type": "donation",
+      "attributes": {"amount": 250000, "date": "2026-01-15"},
+      "provenance": {"source": "demo_seed"}
+    }
+  ],
+  "evidence": [
+    {
+      "title": "IRS Form 990 Schedule I",
+      "claim_summary": "Shows large transfer to PAC.",
+      "confidence": "high",
+      "occurred_at": "2026-01-10",
+      "source_url": "https://example.com/irs-990",
+      "notes": "Capture Schedule I page.",
+      "resource_name": "IRS EO BMF"
+    },
+    {
+      "title": "FEC Disbursement Report",
+      "claim_summary": "PAC paid media vendor in Q1.",
+      "confidence": "medium",
+      "occurred_at": "2026-01-20",
+      "source_url": "https://example.com/fec",
+      "notes": "Tie to vendor records.",
+      "resource_name": "FEC Disbursements"
+    },
+    {
+      "title": "Meta Ad Library Snapshot",
+      "claim_summary": "Ad spend correlated with PAC activity.",
+      "confidence": "medium",
+      "occurred_at": "2026-01-25",
+      "source_url": "https://example.com/meta",
+      "notes": "Archive ad creative.",
+      "resource_name": "Meta Ad Library"
+    },
+    {
+      "title": "Board Advisor Connection",
+      "claim_summary": "Advisor appears on nonprofit and PAC filings.",
+      "confidence": "high",
+      "occurred_at": "2026-01-12",
+      "source_url": "https://example.com/board",
+      "notes": "Cross-reference board rosters.",
+      "resource_name": "OpenSecrets"
+    },
+    {
+      "title": "State lobbying report",
+      "claim_summary": "Lobbying spend tied to shell LLC.",
+      "confidence": "low",
+      "occurred_at": "2026-01-18",
+      "source_url": "https://example.com/lobbying",
+      "notes": "Follow up with state filings.",
+      "resource_name": "Transparency USA"
+    }
+  ]
+}

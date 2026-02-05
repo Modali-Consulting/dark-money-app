@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "record_type": "entity",
+      "natural_key": "org:liberty-advocates",
+      "canonical_name": "Liberty Advocates Network",
+      "type": "org",
+      "aliases": ["Liberty Advocates"],
+      "identifiers": {"ein": "12-3456789"},
+      "jurisdiction": "US"
+    },
+    {
+      "record_type": "entity",
+      "natural_key": "person:alex-roe",
+      "canonical_name": "Alex Roe",
+      "type": "person",
+      "aliases": ["A. Roe"],
+      "identifiers": {"fec_id": "P00000001"},
+      "jurisdiction": "US"
+    },
+    {
+      "record_type": "entity",
+      "natural_key": "committee:citizens-for-progress",
+      "canonical_name": "Citizens for Progress PAC",
+      "type": "committee",
+      "aliases": ["CFP"],
+      "identifiers": {"fec_committee_id": "C00000001"},
+      "jurisdiction": "US"
+    },
+    {
+      "record_type": "relationship",
+      "natural_key": "rel:donation-1",
+      "from": "Liberty Advocates Network",
+      "to": "Citizens for Progress PAC",
+      "rel_type": "donation",
+      "attributes": {"amount": 250000, "date": "2026-01-15"},
+      "provenance": {"source": "demo_finance"}
+    },
+    {
+      "record_type": "relationship",
+      "natural_key": "rel:advisor-1",
+      "from": "Alex Roe",
+      "to": "Liberty Advocates Network",
+      "rel_type": "advisor",
+      "attributes": {"role": "Board Advisor"},
+      "provenance": {"source": "demo_finance"}
+    }
+  ]
+}

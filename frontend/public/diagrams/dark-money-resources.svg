@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="60" y="80" font-family="Arial" font-size="32" fill="#0f172a">Resources for Tracking Dark Money</text>
+  <rect x="60" y="120" width="320" height="160" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="90" y="160" font-family="Arial" font-size="20" fill="#1e3a8a">Federal Finance</text>
+  <text x="90" y="190" font-family="Arial" font-size="14" fill="#1e3a8a">OpenSecrets</text>
+  <text x="90" y="215" font-family="Arial" font-size="14" fill="#1e3a8a">FEC Disbursements</text>
+  <text x="90" y="240" font-family="Arial" font-size="14" fill="#1e3a8a">FEC Itemizer</text>
+
+  <rect x="420" y="120" width="320" height="160" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="450" y="160" font-family="Arial" font-size="20" fill="#166534">Nonprofit Disclosures</text>
+  <text x="450" y="190" font-family="Arial" font-size="14" fill="#166534">IRS EO BMF</text>
+  <text x="450" y="215" font-family="Arial" font-size="14" fill="#166534">ProPublica Explorer</text>
+
+  <rect x="780" y="120" width="320" height="160" rx="16" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="810" y="160" font-family="Arial" font-size="20" fill="#991b1b">Political Ads</text>
+  <text x="810" y="190" font-family="Arial" font-size="14" fill="#991b1b">FCC Public File</text>
+  <text x="810" y="215" font-family="Arial" font-size="14" fill="#991b1b">Meta Ad Library</text>
+  <text x="810" y="240" font-family="Arial" font-size="14" fill="#991b1b">Google Transparency</text>
+
+  <rect x="60" y="340" width="320" height="160" rx="16" fill="#fef9c3" stroke="#eab308" stroke-width="2"/>
+  <text x="90" y="380" font-family="Arial" font-size="20" fill="#854d0e">State Campaign Finance</text>
+  <text x="90" y="410" font-family="Arial" font-size="14" fill="#854d0e">FollowTheMoney</text>
+  <text x="90" y="435" font-family="Arial" font-size="14" fill="#854d0e">Transparency USA</text>
+
+  <rect x="420" y="340" width="320" height="160" rx="16" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="450" y="380" font-family="Arial" font-size="20" fill="#3730a3">Lobbying & Foreign</text>
+  <text x="450" y="410" font-family="Arial" font-size="14" fill="#3730a3">FARA Filings</text>
+  <text x="450" y="435" font-family="Arial" font-size="14" fill="#3730a3">LDA Filings</text>
+
+  <rect x="780" y="340" width="320" height="160" rx="16" fill="#cffafe" stroke="#06b6d4" stroke-width="2"/>
+  <text x="810" y="380" font-family="Arial" font-size="20" fill="#0e7490">Corporate Ownership</text>
+  <text x="810" y="410" font-family="Arial" font-size="14" fill="#0e7490">SEC EDGAR</text>
+  <text x="810" y="435" font-family="Arial" font-size="14" fill="#0e7490">OpenCorporates</text>
+</svg>
